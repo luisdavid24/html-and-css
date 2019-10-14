@@ -1,1 +1,11 @@
-css
+html,body{
+  padding: 0px;
+  margin:0;
+  font-size: 12px
+  font-family: Helvetica;
+}
+nav{
+  background: green;
+  padding:10px;
+  color:white;
+}
