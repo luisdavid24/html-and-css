@@ -5,7 +5,23 @@ html,body{
   font-family: Helvetica;
 }
 nav{
-  background: green;
+  background: #7ACC2D;
   padding:10px;
+  color:white;
+  display: flex;
+  justify-content:space-between;
+}
+nav ul{
+  display: flex;
+}
+nav li{
+  padding-right: 10px;
+  list-style: none;
+}
+nav li a{
+  color: black;
+  text-decoration: none;
+}
+nav li a:hover{
   color:white;
 }
