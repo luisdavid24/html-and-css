@@ -15,7 +15,7 @@ nav ul{
   display: flex;
 }
 nav li{
-  padding-right: 10px;
+  padding-left:20px;
   list-style: none;
 }
 nav li a{
@@ -24,4 +24,24 @@ nav li a{
 }
 nav li a:hover{
   color:white;
+}
+/* main section */
+.main_section{
+  padding:15%;
+  text-align: center;
+}
+.products{
+  background-image: url("../images/curve.png");
+  height: 200px;
+  background-size: cover;
+  background-position: center top;
+  padding: 15%;
+  display: flex;
+}
+.product{
+  padding: 10px;
+}
+.product .content{
+  background-color: white;
+  padding: 20px;
 }
