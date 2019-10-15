@@ -1,3 +1,14 @@
+/* variables */
+:root{
+--green-color:#7ACC2D;
+--white-color:white;
+--black-color:#313337;
+/* tipografia */
+
+/* espaciado */
+--space:10px;
+}
+/* fin de variables */
 html,body{
   padding: 0px;
   margin:0;
@@ -5,9 +16,9 @@ html,body{
   font-family: Helvetica;
 }
 nav{
-  background: #7ACC2D;
+  background: var(--green-color);
   padding:10px;
-  color:white;
+  color:var(--white-color);
   display: flex;
   justify-content:space-between;
 }
@@ -19,11 +30,11 @@ nav li{
   list-style: none;
 }
 nav li a{
-  color: black;
+  color: var(--black-color);
   text-decoration: none;
 }
 nav li a:hover{
-  color:white;
+  color:var(--white-color);
 }
 /* main section */
 .main_section{
@@ -43,7 +54,7 @@ nav li a:hover{
   margin-top: -300px;
 }
 .product .content{
-  background-color: white;
+  background-color: var(--white-color);
   padding: 15px;
   box-shadow: 0 0 1px #c1bcbc;
 }
@@ -51,13 +62,14 @@ nav li a:hover{
   text-align: center;
 }
 .main_button{
-  background-color: #7ACC2D;
+  background-color: var(--green-color);
   width: 100%;
-  padding: 10px;
+  padding: var(--space);
   font-size: 17px;
-  color:white;
+  color:var(--white-color);
   border:0;
   cursor:pointer;
+  border-radius: 2px;
 }
 .main_button:hover{
   background-color: #5e9e22;
