@@ -34,23 +34,23 @@
     transform:translated3d(0,0,0);
   }
 }
-.fadeInUP{
-  animation-duration: 1s;
+.fadeInUp{
+  animation-duration: 2s;
   animation-fill-mode: both;
   animation-name: fadeInUp;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   -webkit-animation-name: fadeInUp;
 }
 @keyframes fadeInUp {
   from{
     opacity: 0;
-    -webkit-transform:translated3d(0,100%,0);
-    transform:translated3d(0,100%,0);
+    -webkit-transform: translated3d(0,100%,0);
+    transform: translated3d(0,100%,0);
   }
   to{
     opacity: 1;
-    -webkit-transform:translated3d(0,0,0);
-    transform:translated3d(0,0,0);
+    -webkit-transform: translated3d(0,0,0);
+    transform: translated3d(0,0,0);
   }
 }
