@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 /* variables */
 :root{
 --green-color:#7ACC2D;
 --white-color:white;
 --black-color:#313337;
 /* tipografia */
-
+--normal:12px;
 /* espaciado */
 --space:10px;
+/* box shadow */
+--box:0 0 2px 1px #c1bcbc;
 }
 /* fin de variables */
 html,body{
   padding: 0px;
   margin:0;
-  font-size: 12px
-  font-family: Helvetica;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
 }
 nav{
   background: var(--green-color);
@@ -56,7 +59,7 @@ nav li a:hover{
 .product .content{
   background-color: var(--white-color);
   padding: 15px;
-  box-shadow: 0 0 1px #c1bcbc;
+  box-shadow: var(--box);
 }
 .img_content{
   text-align: center;
@@ -67,10 +70,68 @@ nav li a:hover{
   padding: var(--space);
   font-size: 17px;
   color:var(--white-color);
+  font-size: var(--normal);
   border:0;
   cursor:pointer;
   border-radius: 2px;
 }
 .main_button:hover{
   background-color: #5e9e22;
+}
+/* aqui comienza la segunda seccion */
+
+.products2-img{
+  width: 113px;
+  height: 113px;
+}
+.products2{
+    margin-right: 140px;
+    margin-left: 140px;
+
+
+}
+.productos-tiernos{
+  display: flex;
+  align-items: center;
+}
+.products2-text-p{
+  width: 154px;
+  height: 50px;
+}
+.people{
+  margin-left: 15px;
+}
+.people-title{
+  text-align: center;
+  margin-top:40px;
+}
+.people-text{
+  box-shadow: 0 0 4px  1px #c1bcbc;
+  width: 239px;
+  margin-top:-12px;
+}
+.people-text h2{
+  margin-left: 5px;
+  width: 220px;
+
+}
+.people-text p{
+  height:60px;
+  width: 220px;
+  margin-left: 5px;
+}
+.section-3{
+  display: flex;
+  justify-content: center;
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+footer{
+  display: flex;
+  background: #313337;
+  color:white;
+  justify-content: space-between;
+}
+.footer-contacto{
+  margin-right: 10px;
 }
