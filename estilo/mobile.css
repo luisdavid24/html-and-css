@@ -1,0 +1,19 @@
+@media screen and (max-width:600px) {
+  .products{
+    display: block;
+    height: auto;
+
+    max-height: 750px;
+  }
+  .product{
+    margin-top:auto;
+    margin-top:-20px;
+  }
+  .productos-tiernos{
+    display: block;
+  }
+  .section-3{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
