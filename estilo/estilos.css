@@ -137,3 +137,14 @@ footer{
 .footer-contacto{
   margin-right: 10px;
 }
+/* ------------ventas */
+.modulo-pago{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+.modulo-pago-imagenes{
+  max-width: 150px;
+  text-align: center;
+  margin:auto;
+}
