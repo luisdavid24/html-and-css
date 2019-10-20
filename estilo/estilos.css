@@ -161,3 +161,6 @@ footer{
   border: 1px solid var(--black-color);
   box-sizing: border-box;
 }
+.modulo-pago .main_button{
+  margin-top: 10px;
+}
